@@ -1,0 +1,13 @@
+*Connections*
+OLED Display → ESP32 (38-pin)
+SDA (D0)     → GPIO 21
+SCL (D1)     → GPIO 22
+VCC          → 3.3V
+GND          → GND
+
+ADXL345      → ESP32 (38-pin)
+SDA          → GPIO 21 (shared I2C)
+SCL          → GPIO 22 (shared I2C)
+VCC          → 3.3V
+GND          → GND
+
